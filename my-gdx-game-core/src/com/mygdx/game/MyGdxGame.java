@@ -143,7 +143,7 @@ public class MyGdxGame extends Game {
 			batch.end();
 		}
 
-		sr.setColor(1, 0, 0, 0);
+		sr.setColor(1, 1, 1, 0);
 		sr.begin(ShapeType.Line);
 		sr.line(0, 100, 20000, 100);
 		sr.end();
